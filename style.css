@@ -23,8 +23,9 @@
 
 body {
   font-family: "Roboto", sans-serif, Arial;
-  background: url('assets/background.jpg') no-repeat center center;
+  background: url('assets/loading.png') no-repeat center center;
   background-size: cover;
+  background-color: var(--secondary-color);
   min-height: 100vh;
   min-width: 300px;
   display: flex;

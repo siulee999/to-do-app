@@ -1,3 +1,13 @@
+// background image loading
+const backgroundDiv = document.querySelector("body");
+const imageUrl = 'assets/background.jpg';
+const img = new Image();
+img.src = imageUrl;
+img.onload = () => {
+  backgroundDiv.style.backgroundImage = `url(${imageUrl})`;
+};
+
+// app
 const taskListContainer = document.querySelector("#list-container");
 const form = document.querySelector("form"); 
 const formInput = document.querySelector("#input-text");
